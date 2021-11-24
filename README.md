@@ -12,7 +12,7 @@ Group Members:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jinghao (Daniel) Wang (jinghao@usc.edu)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yuzhe Wang (yuzhew@usc.edu)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ryan Wang (yuzhew@usc.edu)
 
 Project Description: 
 
