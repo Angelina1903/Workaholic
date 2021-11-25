@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS login_info;
+CREATE DATABASE lab09;
+
+USE lab09;
