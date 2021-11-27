@@ -95,7 +95,7 @@
 
 		<div class="container login">
 			<h2>Workaholic</h2>
-			<form action="#" method="POST" id="form">
+			<form action="login-success.html" method="POST" id="form">
 
 				<div class="row mb-3">
 					<div class="font-italic text-danger col-sm-9 ml-sm-auto">
@@ -108,7 +108,7 @@
 				<div class="form-group row">
 					<label for="username-id" class="col-sm-3 col-form-label text-sm-right">Email:<span class="text-danger">*</span></label>
 					<div class="col-sm-9">
-						<input type="text" class="form-control" id="username-id" name="username">
+						<input type="email" placeholder="Workaholic@example.com" class="form-control" id="emailAddress" name="username" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
 						<small id="email-error" class="invalid-feedback">Email is required.</small>
 					</div>
 				</div> <!-- .form-group -->
@@ -116,7 +116,7 @@
 				<div class="form-group row">
 					<label for="password-id" class="col-sm-3 col-form-label text-sm-right">Password:<span class="text-danger">*</span></label>
 					<div class="col-sm-9">
-						<input type="password" class="form-control" id="password-id" name="password">
+						<input type="password" class="form-control" id="password" name="password" pattern=".{8,26}" required>
 						<small id="password-error" class="invalid-feedback">Password is required.</small>
 
 					</div>
@@ -149,7 +149,7 @@
 	</div>
 	<script>
 		document.querySelector('#form').onsubmit = function(event){
-			event.preventDefault();
+			
 			if ( document.querySelector("#username-id").value.trim().length == 0 ) {
 				document.querySelector('#username-id').classList.add('is-invalid');
 			} else {
@@ -161,7 +161,7 @@
 			} else {
 				document.querySelector('#password-id').classList.remove('is-invalid');
 			}
-			// return ( !document.querySelectorAll('.is-invalid').length > 0 );
+			return ( !document.querySelectorAll('.is-invalid').length > 0 );
 		}
 
 </script>
