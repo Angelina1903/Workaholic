@@ -1,4 +1,5 @@
 ## Workaholic
+New: main page: https://github.com/Angelina1903/CSCI201-FinalProject-Workaholic
 
 Group Members:
 
